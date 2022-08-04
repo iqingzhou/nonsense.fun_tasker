@@ -53,9 +53,13 @@ LeanCloud 国际版共享域名于 2022 年 8 月 1 日起不再向中国大陆�
 
 自行到`场景/Main/发送/按下`，手动替换这两处Shell命令的%reqURL为你的域名就好：
 
-<img src="https://s2.loli.net/2022/08/04/bBlPjizF5KETa4G.png" width = "360" height = "640" alt="图片名称" align=center />
+<img src="https://s2.loli.net/2022/08/04/bBlPjizF5KETa4G.png" width = "360" height = "640" alt="图片名称" align=center /> <img src="https://s2.loli.net/2022/08/04/waJSrPtqg48FkXh.png" width = "360" height = "640" alt="图片名称" align=center />
 
-<img src="https://s2.loli.net/2022/08/04/waJSrPtqg48FkXh.png" width = "360" height = "640" alt="图片名称" align=center />
+如果还是不行，可以尝试：
+
+打开发送界面，**长按**发送按钮，打开设置页面调整`--insecure`参数。
+
+   **--insecure：** 是否在脚本命令末尾加上`--insecure`参数。默认关闭，如果无法发送可以尝试打开这个选项试试。
 
 # Tasker工程使用方法
 
