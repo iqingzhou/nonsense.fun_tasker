@@ -51,7 +51,7 @@ https://sspai.com/post/60024
 
 LeanCloud 国际版共享域名于 2022 年 8 月 1 日起不再向中国大陆的最终用户提供服务，如果应用的用户主体是在中国大陆，使用数据存储、即时通信、推送与短信服务的用户，需要在控制台绑定 API 自定义域名；使用云引擎服务的用户，需要在控制台绑定云引擎自定义域名。
 
-自行到`场景/Main/发送/按下`，手动替换这两处Shell命令的%reqURL为你的域名就好：
+自行到`场景/Main/发送/按下`，手动替换这两处 Shell 命令的 %reqURL 为你的域名就好：
 
 <img src="https://s2.loli.net/2022/08/04/bBlPjizF5KETa4G.png" width = "360" height = "640" alt="图片名称" align=center /> <img src="https://s2.loli.net/2022/08/04/waJSrPtqg48FkXh.png" width = "360" height = "640" alt="图片名称" align=center />
 
