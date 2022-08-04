@@ -641,7 +641,7 @@ The intent action that opened the secondary app. Can be empty.&lt;/_array_net.di
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>123</code>
-			<Str sr="arg0" ve="3">curl -X POST -H "X-LC-Id:%AppID" -H "X-LC-Sign:%hashedsign,%timestamp,master" -H "Content-Type:application/json" -d "{\"content\":\"%textContent\"}" https://zhou.wqzh.eu.org/1.1/classes/%className --insecure</Str>
+			<Str sr="arg0" ve="3">curl -X POST -H "X-LC-Id:%AppID" -H "X-LC-Sign:%hashedsign,%timestamp,master" -H "Content-Type:application/json" -d "{\"content\":\"%textContent\"}" https://%reqURL/1.1/classes/%className --insecure</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3"/>
@@ -653,7 +653,7 @@ The intent action that opened the secondary app. Can be empty.&lt;/_array_net.di
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>123</code>
-			<Str sr="arg0" ve="3">curl -X POST -H "X-LC-Id:%AppID" -H "X-LC-Sign:%hashedsign,%timestamp,master" -H "Content-Type:application/json" -d "{\"content\":\"%textContent\"}" https://zhou.wqzh.eu.org/1.1/classes/%className</Str>
+			<Str sr="arg0" ve="3">curl -X POST -H "X-LC-Id:%AppID" -H "X-LC-Sign:%hashedsign,%timestamp,master" -H "Content-Type:application/json" -d "{\"content\":\"%textContent\"}" https://%reqURL/1.1/classes/%className</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3"/>
